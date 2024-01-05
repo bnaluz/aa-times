@@ -1,1 +1,32 @@
-/* Your code here */
+.masthead{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "menu-and-search . actions "
+    ". technologies . "
+    "date logo paper"
+}
+
+.masthead__menu-and-search{
+    grid-area: menu-and-search
+}
+
+.masthead__actions{
+    grid-area: actions;
+}
+
+.masthead__technologies{
+    grid-area: technologies;
+}
+
+.masthead__date{
+    grid-area: date;
+}
+
+.masthead__logo{
+    grid-area: logo;
+}
+
+.masthead__paper{
+    grid-area: paper;
+}
